@@ -1,0 +1,10 @@
+
+DROP TABLE IF EXISTS config;
+
+CREATE TABLE config (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  value DECIMAL NOT NULL
+);
+
+INSERT INTO config (value) VALUES
+  (0);
